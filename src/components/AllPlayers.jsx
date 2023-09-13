@@ -22,7 +22,7 @@ const AllPlayers = () => {
           players.map( player => {
             return (
                 <div key={player.id}>
-                    <Link to='/player'>{ player.name }</Link>                    
+                    <Link to={`/players/${player.id}`}>{ player.name }</Link>                    
                 </div>
             )
           })  

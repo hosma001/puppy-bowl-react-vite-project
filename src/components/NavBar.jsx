@@ -5,8 +5,8 @@ const NavBar = () => {
         <>
         <nav>
             <Link to='/'>All Players</Link>
-            <Link to='/player'>Single Player</Link>
-            <Link to='/newplayer'>New Player Form</Link>
+            <Link to='/players/:id'>Single Player</Link>
+            <Link to='/newplayer'>New Player Form</Link>  
         </nav>
         </>
     );
